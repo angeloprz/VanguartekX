@@ -1415,15 +1415,25 @@ img[src=""] {
           <p class="reveal rd2">Cuéntenos sobre su instalación. Nuestro equipo técnico le responderá en el menor tiempo posible.</p>
 
           <div class="cto-contacts reveal rd3">
-            <a href="/cdn-cgi/l/email-protection#442d2a222b0432252a2331253630212f3c6a34362b" class="cto-contact-item" aria-label="Enviar correo">
+            <a href="#" class="cto-contact-item" aria-label="Enviar correo" id="email-link">
               <div class="cci-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M3 8l9 5 9-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
               </div>
               <div>
                 <span class="cci-label">Email</span>
-                <span class="cci-val"><span class="__cf_email__" data-cfemail="e980878f86a99f88878e9c889b9d8c8291c7999b86">[email&#160;protected]</span></span>
+                <span class="cci-val" id="email-val"></span>
               </div>
             </a>
+            <script>
+              (function(){
+                var u='info', d='vanguartekx'+'.pro';
+                var a=u+'@'+d;
+                var el=document.getElementById('email-link');
+                var v=document.getElementById('email-val');
+                el.href='mai'+'lto:'+a;
+                v.textContent=a;
+              })();
+            </script>
             <a href="tel:+584123361082" class="cto-contact-item" aria-label="Llamar 0412 3361082">
               <div class="cci-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none"><path d="M6.012 3.038C5.61 2.626 4.97 2.51 4.436 2.768l-2.085 1.007C1.794 4.094 1.444 4.73 1.55 5.357 2.372 10.19 5.284 15 9.65 19.366c4.367 4.366 9.176 7.279 14.009 8.1.627.107 1.263-.243 1.582-.8l1.007-2.086c.258-.534.141-1.173-.27-1.576l-3.2-3.114a1.2 1.2 0 0 0-1.437-.166l-2.3 1.38a1.2 1.2 0 0 1-1.35-.101C15.34 18.748 12.706 16.114 11 13.309a1.2 1.2 0 0 1-.1-1.35l1.379-2.3a1.2 1.2 0 0 0-.165-1.437L9 4.822" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
